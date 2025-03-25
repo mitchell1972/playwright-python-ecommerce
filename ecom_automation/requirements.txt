@@ -1,0 +1,14 @@
+playwright==1.38.0
+pytest==7.4.0
+pytest-playwright==0.4.2
+pytest-asyncio==0.21.1
+pandas==2.0.3
+pdfkit==1.0.0
+loguru==0.7.0
+retry==0.9.2
+asyncio==3.4.3
+python-dotenv==1.0.0
+tqdm==4.66.1
+weasyprint==60.1
+matplotlib==3.7.3
+pillow==10.0.1 
