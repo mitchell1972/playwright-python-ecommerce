@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "transaction_id": "$TRANSACTION_ID$",
+  "amount": 125.99,
+  "currency": "USD",
+  "status": "approved",
+  "timestamp": "$TIMESTAMP$",
+  "card": {
+    "last4": "1111",
+    "brand": "visa",
+    "exp_month": 12,
+    "exp_year": 2025
+  },
+  "receipt_url": "https://example.com/receipts/$TRANSACTION_ID$"
+}

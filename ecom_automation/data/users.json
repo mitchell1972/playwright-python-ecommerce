@@ -1,0 +1,22 @@
+{
+  "users": {
+    "standard": {
+      "email": "standard_user@example.com",
+      "password": "password123",
+      "firstname": "John",
+      "lastname": "Doe"
+    },
+    "premium": {
+      "email": "premium_user@example.com",
+      "password": "premium123",
+      "firstname": "Jane",
+      "lastname": "Smith"
+    },
+    "admin": {
+      "email": "admin@example.com",
+      "password": "admin_secure_pwd",
+      "firstname": "Admin",
+      "lastname": "User"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "order_id": "$ORDER_ID$",
+  "total": 135.98,
+  "currency": "USD",
+  "status": "confirmed",
+  "timestamp": "$TIMESTAMP$",
+  "items": [
+    {
+      "id": "product-1234",
+      "name": "Black Hoodie",
+      "quantity": 1,
+      "price": 49.99,
+      "currency": "USD"
+    },
+    {
+      "id": "product-5678",
+      "name": "Blue Jeans",
+      "quantity": 1,
+      "price": 75.99,
+      "currency": "USD"
+    }
+  ],
+  "shipping": {
+    "method": "usps_priority",
+    "name": "USPS Priority Mail",
+    "price": 9.99,
+    "currency": "USD",
+    "estimated_days": 3,
+    "tracking_url": "https://example.com/track?number=$RANDOM_INT(10000000,99999999)$"
+  },
+  "billing": {
+    "card_last4": "1111",
+    "payment_method": "credit_card"
+  },
+  "customer": {
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+  },
+  "receipt_url": "https://example.com/receipts/$ORDER_ID$"
+}

@@ -22,12 +22,19 @@ class BrowserManager:
     
     def __init__(
         self,
-        headless: bool = True,
-        browser_type: str = "chromium",
+        headless: bool = None,
+        browser_type: str = None,
         slow_mo: int = 50,
         screenshots_dir: str = "screenshots",
-        timeout: int = 30000,
+        timeout: int = None,
     ):
+        from .config import HEADLESS, BROWSER, TIMEOUT
+        
+        # Set defaults from config if not provided
+        self.headless = headless if headless is not None else HEADLESS
+        self.browser_type = browser_type if browser_type is not None else BROWSER
+        self.timeout = timeout if timeout is not None else TIMEOUT
+
         """
         Initialize the browser manager.
         
@@ -199,4 +206,4 @@ async def run_parallel_sessions(num_users: int, headless: bool = True) -> List[D
         List of result dictionaries from each session
     """
     manager = BrowserManager(headless=headless)
-    return await manager.run_parallel_sessions(num_users) 
+    return await manager.run_parallel_sessions(num_users)

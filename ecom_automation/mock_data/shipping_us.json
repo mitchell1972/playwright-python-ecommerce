@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "country": "US",
+  "options": [
+    {
+      "id": "usps_priority",
+      "name": "USPS Priority Mail",
+      "description": "Delivery in 2-3 business days",
+      "price": 9.99,
+      "currency": "USD",
+      "estimated_days": 3
+    },
+    {
+      "id": "usps_express",
+      "name": "USPS Priority Mail Express",
+      "description": "Delivery in 1-2 business days",
+      "price": 24.99,
+      "currency": "USD",
+      "estimated_days": 1
+    },
+    {
+      "id": "ups_ground",
+      "name": "UPS Ground",
+      "description": "Delivery in 1-5 business days",
+      "price": 12.99,
+      "currency": "USD",
+      "estimated_days": 3
+    },
+    {
+      "id": "fedex_2day",
+      "name": "FedEx 2Day",
+      "description": "Delivery in 2 business days",
+      "price": 19.99,
+      "currency": "USD",
+      "estimated_days": 2
+    }
+  ],
+  "timestamp": "$TIMESTAMP$"
+}

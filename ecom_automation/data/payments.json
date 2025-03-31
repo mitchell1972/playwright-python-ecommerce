@@ -1,0 +1,38 @@
+{
+  "payment_methods": {
+    "credit_card": {
+      "type": "credit_card",
+      "card_number": "4111111111111111",
+      "expiry_month": "12",
+      "expiry_year": "2025",
+      "cvv": "123",
+      "name_on_card": "John Doe"
+    },
+    "credit_card_declined": {
+      "type": "credit_card",
+      "card_number": "4000000000000002",
+      "expiry_month": "12",
+      "expiry_year": "2025",
+      "cvv": "123",
+      "name_on_card": "Decline Test"
+    },
+    "credit_card_expired": {
+      "type": "credit_card",
+      "card_number": "4111111111111111",
+      "expiry_month": "12",
+      "expiry_year": "2020",
+      "cvv": "123",
+      "name_on_card": "Expired Test"
+    },
+    "paypal": {
+      "type": "paypal",
+      "email": "test@paypal.example.com",
+      "password": "secure_password"
+    },
+    "gift_card": {
+      "type": "gift_card",
+      "card_number": "GC123456789",
+      "pin": "1234"
+    }
+  }
+}

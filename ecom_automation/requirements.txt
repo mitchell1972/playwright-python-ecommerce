@@ -11,4 +11,4 @@ python-dotenv==1.0.0
 tqdm==4.66.1
 weasyprint==60.1
 matplotlib==3.7.3
-pillow==10.0.1 
+pillow==9.2.0

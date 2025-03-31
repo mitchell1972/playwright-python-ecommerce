@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Black Hoodie",
+      "category": "apparel",
+      "search_term": "hoodie",
+      "price_range": [20, 50],
+      "color": "black",
+      "size": "M"
+    },
+    {
+      "name": "White T-Shirt",
+      "category": "apparel",
+      "search_term": "t-shirt",
+      "price_range": [15, 30],
+      "color": "white",
+      "size": "L"
+    },
+    {
+      "name": "Blue Jeans",
+      "category": "apparel",
+      "search_term": "jeans",
+      "price_range": [30, 60],
+      "color": "blue",
+      "size": "32"
+    },
+    {
+      "name": "Leather Wallet",
+      "category": "accessories",
+      "search_term": "wallet",
+      "price_range": [20, 40],
+      "color": "brown"
+    },
+    {
+      "name": "Digital Watch",
+      "category": "accessories",
+      "search_term": "watch",
+      "price_range": [50, 100],
+      "color": "silver"
+    },
+    {
+      "name": "Bluetooth Headphones",
+      "category": "electronics",
+      "search_term": "headphones",
+      "price_range": [80, 150],
+      "color": "black"
+    }
+  ]
+}

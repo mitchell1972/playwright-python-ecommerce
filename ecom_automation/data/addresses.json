@@ -1,0 +1,40 @@
+{
+  "addresses": {
+    "US": {
+      "first_name": "John",
+      "last_name": "Doe",
+      "company": "Test Company Inc.",
+      "address_line1": "123 Main Street",
+      "address_line2": "Apt 4B",
+      "city": "New York",
+      "state": "NY",
+      "zip_code": "10001",
+      "country": "US",
+      "phone": "212-555-1234"
+    },
+    "UK": {
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "company": "UK Test Ltd.",
+      "address_line1": "10 Downing Street",
+      "address_line2": "Flat 2",
+      "city": "London",
+      "state": "",
+      "zip_code": "SW1A 2AA",
+      "country": "UK",
+      "phone": "020-7123-4567"
+    },
+    "DE": {
+      "first_name": "Hans",
+      "last_name": "Mueller",
+      "company": "Deutsch GmbH",
+      "address_line1": "Berliner Str. 10",
+      "address_line2": "",
+      "city": "Berlin",
+      "state": "",
+      "zip_code": "10115",
+      "country": "DE",
+      "phone": "030-12345678"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "success": false,
+  "transaction_id": "$TRANSACTION_ID$",
+  "amount": 125.99,
+  "currency": "USD",
+  "status": "declined",
+  "timestamp": "$TIMESTAMP$",
+  "card": {
+    "last4": "0002",
+    "brand": "visa",
+    "exp_month": 12,
+    "exp_year": 2025
+  },
+  "error": {
+    "code": "card_declined",
+    "message": "Your card was declined. Please use a different payment method.",
+    "decline_code": "generic_decline"
+  }
+}
